@@ -2,52 +2,151 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Trần Nguyễn Anh Thi</title>
-    <link rel="stylesheet" href="resources/css/style.css">
+    <title>Trần Nguyễn Anh Thi - CV</title>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <div class="cv-container">
-        <header>
-            <img src="resources/img/avatar.jpg" alt="Ảnh cá nhân" class="profile-img">
-            <h1>Trần Nguyễn Anh Thi</h1>
-            <h2>Sinh viên Kinh tế - UEH</h2>
-        </header>
+    <div class="row">
+        
+        <!-- CỘT TRÁI -->
+        <div class="col span-1-of-3 personal">
+            <div class="personal-header">
+                <img src="resources/img/avatar.jpg" alt="Ảnh cá nhân">
+                <h1>Trần Nguyễn Anh Thi</h1>
+                <p>Sinh viên Kinh tế - UEH</p>
+            </div>
 
-        <section class="contact-info">
-            <p>Email: <a href="mailto:trannguyenanhthi10@gmail.com">trannguyenanhthi10@gmail.com</a></p>
-            <p>Điện thoại: 0385 115 381</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/thitran" target="_blank">linkedin.com/in/thitran</a></p>
-            <p>GitHub: <a href="https://github.com/thitran31231024539-glitch" target="_blank">github.com/thitran31231024539-glitch</a></p>
-            <p>Website: <a href="https://tranthi.ueh.github.io" target="_blank">tranthi.ueh.github.io</a></p>
-        </section>
+            <div class="personal-details">
+                <div class="personal-info">
+                    <ion-icon name="mail"></ion-icon>
+                    <a href="mailto:trannguyenanhthi10@gmail.com">trannguyenanhthi10@gmail.com</a>
+                </div>
+                <div class="personal-info">
+                    <ion-icon name="call"></ion-icon>
+                    <a href="tel:0385115381">0385 115 381</a>
+                </div>
+                <div class="personal-info">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <a href="https://linkedin.com/in/thitran" target="_blank">linkedin.com/in/thitran</a>
+                </div>
+                <div class="personal-info">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/thitran31231024539-glitch" target="_blank">github.com/thitran31231024539-glitch</a>
+                </div>
+                <div class="personal-info">
+                    <ion-icon name="globe-outline"></ion-icon>
+                    <a href="https://tranthi.ueh.github.io" target="_blank">tranthi.ueh.github.io</a>
+                </div>
 
-        <section class="education">
-            <h3>Học vấn</h3>
-            <p><strong>Đại học Kinh tế TP.HCM (UEH)</strong><br>
-            Khoa Kinh tế Đầu tư (2021–2025)</p>
-        </section>
+                <h3>Học vấn</h3>
+                <div class="personal-ed">
+                    <p class="personal-ed-bold">Cử nhân Kinh tế Đầu tư</p>
+                    <p class="personal-ed-light">Đại học Kinh tế TP.HCM (UEH)<br>2021 – 2025</p>
+                </div>
 
-        <section class="skills">
-            <h3>Kỹ năng</h3>
-            <ul>
-                <li>SPSS</li>
-                <li>SmartPLS</li>
-                <li>Excel</li>
-                <li>Python</li>
-                <li>R</li>
+                <h3>Ngôn ngữ</h3>
+                <div class="personal-ed">
+                    <p class="personal-ed-bold">Tiếng Việt <span>(Bản ngữ)</span></p>
+                    <p class="personal-ed-bold">Tiếng Anh <span>(Khá tốt)</span></p>
+                </div>
+
+                <h3>Sở thích</h3>
+                <div class="personal-ed">
+                    <p class="personal-ed-light">Du lịch</p>
+                    <p class="personal-ed-light">Xem phim</p>
+                    <p class="personal-ed-light">Đọc sách</p>
+                    <p class="personal-ed-light">Phân tích dữ liệu</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CỘT PHẢI -->
+        <div class="col span-2-of-3 professional">
+            <div class="main-heading">
+                <ion-icon name="person"></ion-icon>
+                <h2>Giới thiệu bản thân</h2>
+            </div>
+            <p class="main-desc">
+                Tôi là sinh viên Khoa Kinh tế Đầu tư, Trường Đại học Kinh tế TP.HCM (UEH), 
+                có niềm yêu thích đặc biệt với lĩnh vực phân tích dữ liệu, kinh tế lượng và nghiên cứu định lượng. 
+                Tôi mong muốn được phát triển trong môi trường chuyên nghiệp, học hỏi về tài chính, đầu tư và ứng dụng công nghệ (Python, R, SPSS, SmartPLS) trong nghiên cứu kinh tế.
+            </p>
+
+            <div class="main-heading">
+                <ion-icon name="briefcase"></ion-icon>
+                <h2>Kinh nghiệm & Dự án học thuật</h2>
+            </div>
+
+            <div class="exp-head clearfix">
+                <p class="exp-title">Nghiên cứu: Tác động của già hóa dân số đến quỹ bảo hiểm y tế Việt Nam</p>
+                <p class="exp-duration">2024 – 2025</p>    
+            </div>
+            <p class="exp-place">Đề tài nghiên cứu độc lập, UEH</p>
+            <p class="exp-desc">
+                Xây dựng mô hình SmartPLS để phân tích tác động của biến “Già hóa dân số” đến các nhánh trung gian “Thu” và “Chi” của Quỹ Bảo hiểm Y tế.
+            </p>
+            <ul class="exp-items">
+                <li>Phần mềm sử dụng: SPSS, SmartPLS, Excel, Python</li>
+                <li>Phân tích dữ liệu thống kê, kiểm định mô hình SEM</li>
+                <li>Viết báo cáo học thuật và trình bày kết quả</li>
             </ul>
-        </section>
 
-        <section class="languages">
-            <h3>Ngôn ngữ</h3>
-            <p>Tiếng Việt (Bản ngữ), Tiếng Anh (Tốt)</p>
-        </section>
+            <div class="exp-head clearfix">
+                <p class="exp-title">Phân tích tài chính dự án đầu tư</p>
+                <p class="exp-duration">2023</p>    
+            </div>
+            <p class="exp-place">Môn học Phân tích tài chính dự án, UEH</p>
+            <p class="exp-desc">
+                Tính toán các chỉ tiêu hiệu quả đầu tư (NPV, IRR, Payback Period) và xây dựng báo cáo dòng tiền chi tiết cho dự án mẫu.
+            </p>
+            <ul class="exp-items">
+                <li>Phần mềm: Excel, Python</li>
+                <li>Lập bảng khấu hao, chi phí, doanh thu và dòng tiền</li>
+            </ul>
 
-        <section class="interests">
-            <h3>Sở thích</h3>
-            <p>Du lịch, xem phim, đọc sách</p>
-        </section>
+            <div class="main-heading">
+                <ion-icon name="build"></ion-icon>
+                <h2>Kỹ năng & Công cụ</h2>
+            </div>
+
+            <div class="skills">
+                <div class="skill-container">
+                    <div class="col span-1-of-3 skill-title">SPSS / SmartPLS</div>
+                    <div class="col span-2-of-3 skill-bg"><div class="skill-fg" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-container">
+                    <div class="col span-1-of-3 skill-title">Excel</div>
+                    <div class="col span-2-of-3 skill-bg"><div class="skill-fg" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill-container">
+                    <div class="col span-1-of-3 skill-title">Python</div>
+                    <div class="col span-2-of-3 skill-bg"><div class="skill-fg" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill-container">
+                    <div class="col span-1-of-3 skill-title">R</div>
+                    <div class="col span-2-of-3 skill-bg"><div class="skill-fg" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill-container">
+                    <div class="col span-1-of-3 skill-title">Kinh tế lượng</div>
+                    <div class="col span-2-of-3 skill-bg"><div class="skill-fg" style="width: 75%;"></div></div>
+                </div>
+            </div>
+
+        </div>
     </div>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 </html>
